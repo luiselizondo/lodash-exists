@@ -1,4 +1,9 @@
 language: node_js
 node_js:
-  - "7"
-  - "6"
+- '7'
+- '6'
+deploy:
+  provider: npm
+  api_key: b2pIAo5zvu0QwBCCV1y4Harb0oJixTpJsSpRuvz69LP2v1XUaLKON3k6WrgVznEcyxrlM+aQLit4Y2QXGf/H2bJkU7aa/wqhCqfJTG4voMR2AaCPGaeScHuAzIjfTxLJT/WhLMGhTPB078UboA9MsZ73j9z1o6CtNRHO89ojbfxnB7wWucOwSmEtuH+I0EAmBH/QOFvD7YrW8Ksdbt6/CLoauobRMKYBTA0hdEk6dcjVrGOllgDqlM1VGMyJWz+E1zgaw2/Rhb+ESUjTWserwyqWNkw/RQNlc0l5qPqvCScy+v+UyKzquRDE1I/dnHvlt4DtbYpb0fMmp+bkc02En9mQwEoT29ew1dKeTyzCxNADkySy/dk1eI0M4dnMATJF6KPqNRhKLV3LyBB81uAHBVxNrHM87XSUYaN11TsjdJV/XYnlZboU31HXhPgBkbP30Mr0PsYnRTJJb/0UVtXZLtRlitvlHfBlvESPBWeWsvgOYOFqfD2eHCToBY8V3Du0+qvB3aGSsY46kB/V9wN10YKlUgHDCDtKEODx5SB7ve1MG3o29+a5w6ppE7bvtNWstUhlT0BhW+KTX4BvemQWR5/nKa2eQ0u4s7LIEUK55d8I85EbtFkIcBTpbekbwk9Ppzm6ToiUcdRMM4TgRVysXNNyLyb5wmTBa5AosGDHg2k=
+	on:
+		branch: master
