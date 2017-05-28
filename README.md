@@ -1,4 +1,6 @@
 # Lodash Exists
+[![Build Status](https://travis-ci.org/luiselizondo/lodash-exists.svg?branch=master)](https://travis-ci.org/luiselizondo/lodash-exists)
+
 Extends lodash to check if a value exists
 
 ### Example
