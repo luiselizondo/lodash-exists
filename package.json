@@ -1,0 +1,21 @@
+{
+  "name": "lodash-exists",
+  "version": "1.0.1",
+  "description": "Simple method to extend lodash and check if a value exists",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "should": "^11.2.1"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/luiselizondo/lodash-exists.git"
+	},
+  "author": "Luis Elizondo",
+  "license": "MIT"
+}
