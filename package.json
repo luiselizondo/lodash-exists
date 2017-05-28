@@ -7,15 +7,16 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "mocha": "^3.4.2",
     "should": "^11.2.1"
   },
   "scripts": {
     "test": "mocha tests/test.js"
   },
-	"repository": {
-	  "type": "git",
-	  "url": "https://github.com/luiselizondo/lodash-exists.git"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luiselizondo/lodash-exists.git"
+  },
   "author": "Luis Elizondo",
   "license": "MIT"
 }
