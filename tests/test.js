@@ -68,4 +68,10 @@ describe('Exists', function () {
 		_.exists(value).should.be.true();
 		done()
 	})
+
+	it('Should return true if value is 1', function (done) {
+		var value = 1
+		_.exists(value).should.be.true();
+		done()
+	})
 });
