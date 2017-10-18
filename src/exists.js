@@ -8,6 +8,10 @@ function exists(value) {
 	if (value === false) {
 		return true;
 	}
+
+	if (value === 0) {
+		return true;
+	}
 	
 	if (value == null) {
 		return false;

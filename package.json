@@ -1,6 +1,6 @@
 {
   "name": "lodash-exists",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple method to extend lodash and check if a value exists",
   "main": "index.js",
   "dependencies": {
